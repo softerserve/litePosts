@@ -7,8 +7,8 @@
   "scripts": {
     "//": "to run this in test, just type npm run-script dev",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-	"postinstall": "webpack -p",
-	"start": "node server.js"
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "author": "RHMc",
   "license": "ISC",
@@ -22,6 +22,7 @@
   "dependencies": {
     "axios": "^0.9.1",
     "babel-preset-stage-1": "^6.1.18",
+    "express": "^4.14.0",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
@@ -30,6 +31,6 @@
     "redux-form": "^4.2.0",
     "redux-promise": "^0.5.1",
     "reselect": "^2.0.3",
-	"webpack": "^1.12.9"
+    "webpack": "^1.12.9"
   }
 }
