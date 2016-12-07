@@ -6,7 +6,7 @@ import {
 } from './types'
 
 export function fetchPosts() {
-  const request = axios.get('http://jsonplaceholder.typicode.com/posts');
+  const request = axios.get('https://jsonplaceholder.typicode.com/posts');
 
   return {
     type: FETCH_POSTS,
